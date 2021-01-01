@@ -1,14 +1,16 @@
 module.exports = {
   siteMetadata: {
-    title: `Gatsby Starter Blog`,
+    title: `プレスリリースで遊ばない`,
     author: {
-      name: `Kyle Mathews`,
-      summary: `who lives and works in San Francisco building useful things.`,
+      name: `Koji Nishikiori`,
+      summary: `Co-Founder of Hotspring, Inc.`,
     },
-    description: `A starter blog demonstrating what Gatsby can do.`,
+    description: `Life`,
     siteUrl: `https://gatsby-starter-blog-demo.netlify.app/`,
     social: {
-      twitter: `kylemathews`,
+      twitter: `cotton_ori`,
+      instagram: `cotton_ori`,
+      github: `wataori`
     },
   },
   plugins: [
@@ -66,7 +68,7 @@ module.exports = {
         background_color: `#ffffff`,
         theme_color: `#663399`,
         display: `minimal-ui`,
-        icon: `content/assets/gatsby-icon.png`,
+        icon: `content/assets/profile-pic.jpg`,
       },
     },
     `gatsby-plugin-react-helmet`,
