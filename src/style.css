@@ -170,8 +170,7 @@ ol {
   margin-right: var(--spacing-0);
   padding: var(--spacing-0);
   margin-bottom: var(--spacing-8);
-  list-style-position: outside;
-  list-style-image: none;
+  list-style: none;
 }
 
 ul li,
@@ -280,7 +279,34 @@ a:focus {
   font-weight: var(--fontWeight-bold);
   font-family: var(--font-heading);
   text-decoration: none;
-  font-size: var(--fontSize-2);
+  font-size: var(--fontSize-4);
+}
+
+.header-link-nav {
+  display: flex;
+}
+
+.header-link-nav-item {
+  padding: 0.5em 0.8em;
+  font-size: var(--fontSize-1);
+  display: flex;
+}
+
+.header-link-nav-item:hover {
+  background: #d1dce5;
+  border-radius: 1px;
+}
+
+.header-link-nav-item:first-child {
+  margin-left: 0;
+}
+
+.header-link-nav-item:nth-child(n+2) {
+  margin-left: 10px;
+}
+
+.header-link-nav-item-link {
+  text-decoration: none;
 }
 
 .bio {
