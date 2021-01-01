@@ -59,15 +59,15 @@ const Bio = () => {
           <br></br>
           {author?.summary || null}
           {` `}
-          <a href={`https://twitter.com/${social?.twitter || ``}`} target="_blank">
+          <a href={`https://twitter.com/${social?.twitter || ``}`} target="_blank" rel="noreferrer">
             Twitter
           </a>
           { ` / ` }
-          <a href={`https://instagram.com/${social?.instagram || ``}`} target="_blank">
+          <a href={`https://instagram.com/${social?.instagram || ``}`} target="_blank" rel="noreferrer">
             Instagram
           </a>
           { ` / ` }
-          <a href={`https://github.com/${social?.github || ``}`} target="_blank">
+          <a href={`https://github.com/${social?.github || ``}`} target="_blank" rel="noreferrer">
             GitHub
           </a>
         </p>
