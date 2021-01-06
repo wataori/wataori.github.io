@@ -35,7 +35,9 @@ module.exports = {
           {
             resolve: `gatsby-remark-images`,
             options: {
-              maxWidth: 630,
+              maxWidth: 1920,
+              quality: 100,
+              wrapperStyle: 'margin: var(--spacing-4) 0;',
             },
           },
           {
@@ -51,7 +53,16 @@ module.exports = {
       },
     },
     `gatsby-transformer-sharp`,
-    `gatsby-plugin-sharp`,
+    {
+      resolve: `gatsby-plugin-sharp`,
+      options: {
+        defaultQuality: 100,
+        jpegQuality: 100,
+        pngQuality: 100,
+        webpwebpQuality: 100,
+        pngCompressionLevel: 0,
+      },
+    },
     {
       resolve: `gatsby-plugin-google-analytics`,
       options: {
