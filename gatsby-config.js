@@ -5,8 +5,8 @@ module.exports = {
       name: `Koji Nishikiori`,
       summary: `Co-Founder of Hotspring, Inc.`,
     },
-    description: `Life`,
-    siteUrl: `https://gatsby-starter-blog-demo.netlify.app/`,
+    description: ``,
+    siteUrl: `https://wataori.github.io`,
     social: {
       twitter: `cotton_ori`,
       instagram: `cotton_ori`,
