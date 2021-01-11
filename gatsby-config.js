@@ -8,9 +8,10 @@ module.exports = {
     description: ``,
     siteUrl: `https://wataori.github.io`,
     social: {
-      twitter: `cotton_ori`,
-      instagram: `cotton_ori`,
-      github: `wataori`
+      facebook: 'knishikiori',
+      github: 'wataori',
+      instagram: 'cotton_ori',
+      twitter: 'cotton_ori',
     },
   },
   plugins: [

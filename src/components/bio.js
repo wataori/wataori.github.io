@@ -26,9 +26,10 @@ const Bio = () => {
             summary
           }
           social {
-            twitter
-            instagram
+            facebook
             github
+            instagram
+            twitter
           }
         }
       }
@@ -61,16 +62,20 @@ const Bio = () => {
           <br></br>
           {author?.summary || null}
           {` `}
-          <a href={`https://twitter.com/${social?.twitter || ``}`} target="_blank" rel="noreferrer">
-            Twitter
+          <a href={`https://www.facebook.com/${social?.facebook || ``}`} target="_blank" rel="noreferrer">
+            Facebook
+          </a>
+          { ` / ` }
+          <a href={`https://github.com/${social?.github || ``}`} target="_blank" rel="noreferrer">
+            GitHub
           </a>
           { ` / ` }
           <a href={`https://instagram.com/${social?.instagram || ``}`} target="_blank" rel="noreferrer">
             Instagram
           </a>
           { ` / ` }
-          <a href={`https://github.com/${social?.github || ``}`} target="_blank" rel="noreferrer">
-            GitHub
+          <a href={`https://twitter.com/${social?.twitter || ``}`} target="_blank" rel="noreferrer">
+            Twitter
           </a>
         </p>
       )}
